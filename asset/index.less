@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'sns-iconfont';  /* project id 200070 */
+  src: url('//at.alicdn.com/t/font_200070_tb1o8pvbsjq69a4i.eot');
+  src: url('//at.alicdn.com/t/font_200070_tb1o8pvbsjq69a4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_200070_tb1o8pvbsjq69a4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_200070_tb1o8pvbsjq69a4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_200070_tb1o8pvbsjq69a4i.svg#iconfont') format('svg');
+}
+.oxmod-travel-qa{
+/* CSS */
+	li{
+		padding:10px 15px;
+		border-top:solid 1px #f5f5f5;
+	}
+	.q{
+		font-size: 16px;
+		font-weight: 400;
+		color:#111;
+		&:before{
+			content: '问';
+			border:solid 1px #f60;
+			font-size: 12px;	
+			color:#fff;
+			padding:3px;
+			border-radius: 3px;	
+			line-height: 1;
+			display: inline-block;
+			//background:-webkit-gradient(top, red, rgba(0, 0, 255, 0.5)); 
+			background:-webkit-gradient(linear, 100% 0, 50% 50%, from(#fc0), to(#f70)); 
+			margin-right: .5em;
+		}
+	}
+	.a{
+		color: #999;
+		font-size: 13px;
+		margin: 8px 0;
+		max-height: 40px;
+		overflow: hidden;
+		//text-overflow:ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		&:before{
+			content: '回答';
+			border:solid .5px #dedede;
+			font-size: 10px;	
+			padding:3px 5px;
+			border-radius: 10px;	
+			line-height: 1;
+			display: inline-block;
+			margin-right: .5em;
+		}
+
+	}
+	.bottom{
+		color:#999;
+		font-size: 13px;
+		>span{
+			display: inline-block;
+			width:50%;
+			&:first-child{
+				&:before{
+					content: '\e616\20';
+					font-family:'sns-iconfont';
+					color:#dedede;
+				}
+
+			}
+			&:last-child{
+				text-align: right;
+			}
+		}
+	}
+ }

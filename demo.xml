@@ -14,21 +14,19 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <qa>
-        <i>
-            <q>
-                mobilephone
-            </q>
-            <a>
-                good camera
-            </a>
-            <fav_count>
-                35
-            </fav_count>
-            <a_count>
-                6056
-            </a_count>
-        </i>
-    </qa>
+        <qa>
+            <i>
+                <q>杭州特产是啥</q>
+                <a>阿里巴巴</a>
+                <fav_count>35</fav_count>
+                <a_count>21</a_count>
+            </i>
+            <i>
+                <q>杭州玩个两三天，怎么安排呢？</q>
+                <a>第一天，传统的玩法，就是环湖游，可以选择电瓶车、公共自行车作为交通工具，省力而且环保</a>
+                <fav_count>48</fav_count>
+                <a_count>9</a_count>
+            </i>
+        </qa>
     </data>
 </root>
